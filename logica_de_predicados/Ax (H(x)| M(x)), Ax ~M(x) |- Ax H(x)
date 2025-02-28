@@ -1,0 +1,12 @@
+# Ax (H(x)| M(x)), Ax ~M(x) |- Ax H(x)
+1. Ax (H(x)| M(x))		pre
+2. Ax ~M(x)			pre
+3. { x0
+4.   H(x0)| M(x0)		Ae 1
+5.   ~M(x0)			Ae 2
+6.   { H(x0)			hip }
+7.   { M(x0)			hip
+8.     @			~e 5,7
+9.     H(x0)			@e 8 }
+10.  H(x0)			|e 4, 6-6, 7-9 }
+11. Ax H(x)			Ai 3-10
