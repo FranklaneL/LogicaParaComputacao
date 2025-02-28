@@ -1,0 +1,4 @@
+# Ax(P(x) |- Ex P(x0)
+1. Ax P(x)		pre
+2. P(x0)		Ae 1
+3. Ex P(x0)		Ei 2
