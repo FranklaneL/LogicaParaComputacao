@@ -1,0 +1,8 @@
+# Ex (P->Q(x)) |- P->Ex Q(x)
+1. Ex(P -> Q(x))			pre
+2.{	P				hip
+3.	{	x0 P -> Q(x0)		hip
+4.		Q(x0)			->e 2,3
+5.		ExQ(x)			Ei 4}
+6.	ExQ(x)				Ee 1, 3-5}
+7. P -> ExQ(x)				->i 2-6
