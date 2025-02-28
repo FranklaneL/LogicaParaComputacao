@@ -1,0 +1,8 @@
+# Ax (H(x) -> M(x)), Ex H(x) |- Ex M(x)
+1. Ax (H(x) -> M(x))		pre
+2. Ex H(x)			pre
+3. { x0 H(x0)			hip
+4.   H(x0) -> M(x0)		Ae 1
+5.   M(x0)			->e 3,4
+6.   Ex M(x)			Ei 5 }
+7. Ex M(x)			Ee 2, 3-6
