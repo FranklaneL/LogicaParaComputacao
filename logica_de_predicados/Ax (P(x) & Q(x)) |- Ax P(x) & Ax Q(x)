@@ -1,0 +1,11 @@
+# Ax (P(x) & Q(x)) |- Ax P(x) & Ax Q(x)
+1. Ax (P(x) & Q(x))		pre
+2. { x0			
+3.   P(x0) & Q(x0)		Ae 1
+4.   P(x0)			&e 3 }
+5. Ax P(x)			Ai 2-4
+6. { x0	
+7.   P(x0) & Q(x0)		Ae 1
+8.   Q(x0)			&e 7 }
+9. Ax Q(x)			Ai 6-8
+10. Ax P(x) & Ax Q(x)		&i 5,9
