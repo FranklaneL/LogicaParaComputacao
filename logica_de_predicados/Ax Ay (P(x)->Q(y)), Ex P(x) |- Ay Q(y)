@@ -1,0 +1,10 @@
+# Ax Ay (P(x)->Q(y)), Ex P(x) |- Ay Q(y)
+1. Ex P(x)			pre
+2. Ax Ay (P(x) -> Q(y))		pre
+3. { y0				
+4.   { x0 P(x0)			hip
+5.     Ay (P(x0) -> Q(y))	Ae 2
+6.     P(x0) -> Q(y0)		Ae 5
+7.     Q(y0)			->e 4,6 }
+8.   Q(y0)			Ee 1, 4-7}
+9. Ay Q(y)			Ai 3-8
