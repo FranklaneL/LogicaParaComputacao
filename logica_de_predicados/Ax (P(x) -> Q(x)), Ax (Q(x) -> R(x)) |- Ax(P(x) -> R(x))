@@ -1,0 +1,11 @@
+# Ax (P(x) -> Q(x)), Ax (Q(x) -> R(x)) |- Ax(P(x) -> R(x))
+1. Ax (P(x) -> Q(x))		pre
+2. Ax (Q(x) -> R(x))		pre
+3. { x0
+4.   P(x0) -> Q(x0)		Ae 1
+5.   Q(x0) -> R(x0)		Ae 2
+6.   { P(x0)			hip
+7.     Q(x0)			->e 6,4
+8.     R(x0)			->e 7,5 }
+9.     P(x0) -> R(x0)		->i 6-8 }
+10. Ax(P(x) -> R(x))		Ai 3-9
