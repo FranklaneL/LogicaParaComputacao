@@ -1,0 +1,12 @@
+# Ax (P(x) -> Q(x)) |- (Ax ~Q(x)) -> (Ax ~P(x))
+1. Ax (P(x) -> Q(x))		pre
+2. { Ax ~Q(x)			hip
+3.   { x0
+4.     ~Q(x0)			Ae 2
+5.     P(x0) -> Q(x0)		Ae 1
+6.     { P(x0)			hip
+7.       Q(x0)			->e 5,6
+8.       @			~e 4,7 }
+9.     ~P(x0)			~i 6-8 }
+10.   Ax ~P(x)			Ai 3-9 }
+11. Ax ~Q(x) -> Ax ~P(x)		->i 2-10
