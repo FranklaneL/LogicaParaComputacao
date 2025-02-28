@@ -1,0 +1,9 @@
+# Ax(P(x) -> R(x)), Ex (P(x) & Q(x)) |- Ex R(x)
+1. Ax (P(x) -> R(x))			pre
+2. Ex (P(x) & Q(x))			pre
+3. { x0 P(x0) & Q(x0)			hip
+4.   P(x0) -> R(x0)			Ae 1
+5.   P(x0)				&e 3
+6.   R(x0)				->e 4,5
+7.  Ex R(x)				Ei 6 }
+8. Ex R(x)				Ee 2, 3-7
