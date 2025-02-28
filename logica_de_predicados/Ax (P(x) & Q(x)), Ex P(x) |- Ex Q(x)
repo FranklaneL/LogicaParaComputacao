@@ -1,0 +1,6 @@
+# Ax (P(x) & Q(x)), Ex P(x) |- Ex Q(x)
+1. Ax (P(x) & Q(x))		pre
+2. Ex P(x)			pre
+3. P(x0) & Q(x0)		Ae 1
+4. Q(x0)			&e 3
+5. Ex Q(x)			Ei 4
